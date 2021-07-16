@@ -140,6 +140,8 @@ public class CustomerAccountController extends AbstractController {
 	@RequestMapping(value="/customLogon.html", method=RequestMethod.GET)
 	public String displayLogon(Model model, HttpServletRequest request, HttpServletResponse response) throws Exception {
 		
+		System.out.println("Changes in AccountController");
+
 
 	    MerchantStore store = getSessionAttribute(Constants.MERCHANT_STORE, request);
 
