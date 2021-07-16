@@ -36,7 +36,7 @@ response.setDateHeader ("Expires", -1);
 										<input type="Password" class="form-control" id="signin_password" name="signin_password">
 									</div>
 									<input type="hidden" id="signin_storeCode" name="signin_storeCode" value="<c:out value="${requestScope.MERCHANT_STORE.code}"/>"/>	
-									<button type="submit" id="genericLogin-button" class="btn btn-default login-btn"><s:message code="button.label.signin" text="button.label.signin"/></button>
+									<button style="margin-left: 85%" type="submit" id="genericLogin-button" class="btn btn-primary login-btn"><s:message code="Log In" text="Log In"/></button>
 								</form>
 					
 							</div>
