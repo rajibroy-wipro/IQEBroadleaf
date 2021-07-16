@@ -220,7 +220,7 @@ public class ShoppingCartController extends AbstractController {
     public String displayShoppingCart( final Model model, final HttpServletRequest request, final HttpServletResponse response, final Locale locale )
         throws Exception
     {
-
+		System.out.println("Changes in ShoppingController");
     	return this.shoppingCart(model, request, response, locale);
     }
     
