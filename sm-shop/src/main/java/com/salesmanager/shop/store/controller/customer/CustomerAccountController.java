@@ -141,7 +141,7 @@ public class CustomerAccountController extends AbstractController {
 	public String displayLogon(Model model, HttpServletRequest request, HttpServletResponse response) throws Exception {
 		
 		System.out.println("Changes in AccountController");
-
+		System.out.println("Changes in AccountController");
 
 	    MerchantStore store = getSessionAttribute(Constants.MERCHANT_STORE, request);
 
