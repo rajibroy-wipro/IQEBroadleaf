@@ -65,6 +65,7 @@ public class ContactController extends AbstractController {
 	@RequestMapping("/shop/store/contactus.html")
 	public String display(Model model, HttpServletRequest request, HttpServletResponse response, Locale locale) throws Exception {
 		System.out.println("Changes in ContactController");
+		System.out.println("Changes in ContactController");
 
 		MerchantStore store = (MerchantStore)request.getAttribute(Constants.MERCHANT_STORE);
 		
